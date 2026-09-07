@@ -2,7 +2,7 @@
 
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { loadGs } = require('./load');
+const { loadGs } = require('../tools/load-gs');
 
 const { buildEmailBody, buildSlackPayload, buildErrorNotice } = loadGs('notify.gs');
 

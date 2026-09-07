@@ -4,7 +4,7 @@
   "description": "Googleフォームの回答を正規化してスプレッドシートに追記し、メール/Slackへ通知するGASプロジェクト",
   "private": true,
   "scripts": {
-    "test": "node --test test/*.test.js"
+    "test": "node --test"
   },
   "license": "MIT"
 }

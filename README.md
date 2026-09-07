@@ -38,7 +38,7 @@ npm test
 ```
 
 Node.js 18+ の標準テストランナーを使います（依存パッケージなし）。
-`test/load.js` が `.gs` ファイルを読み込み、`normalize` / `notify` の
+`tools/load-gs.js` が `.gs` ファイルを読み込み、`normalize` / `notify` の
 16 ケースを検証します（電話整形、別名項目、必須チェック、重複キー、通知本文など）。
 
 GAS を使わずに動きを見たい場合:

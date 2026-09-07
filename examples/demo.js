@@ -3,7 +3,7 @@
 // GAS を使わずに、正規化と通知本文の組み立てだけを手元で確認するデモ。
 //   node examples/demo.js
 
-const { loadGs } = require('../test/load');
+const { loadGs } = require('../tools/load-gs');
 const { normalizeResponse } = loadGs('normalize.gs');
 const { buildEmailBody, buildSlackPayload, buildErrorNotice } = loadGs('notify.gs');
 
